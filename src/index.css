@@ -1,0 +1,274 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f0ece2;
+}
+
+#root, .App {
+  height: 100%;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CardImg {
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  margin: 5px;
+  border-radius: 5%;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GridBooks {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.bookCard {
+  width: 30%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #dfd3c3;
+
+  border: hsl(120, 58%, 53%) 1px solid;
+  border-radius: 10px;
+}
+
+.bookCard:hover {
+  background-color: #c7b198;
+}
+
+@media screen and (max-width: 600px) {
+  .GridBooks {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+  }
+
+
+  .bookCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: hsl(120, 58%, 53%) 1px solid;
+    border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+  .bookCard {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: hsl(120, 58%, 53%) 1px solid;
+    border-radius: 10px;
+    }
+}
+
+
+.bookCard > a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header h1 {
+  text-align: center;
+}
+
+.Menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.Menu li {
+  display: inline;
+}
+
+.Menu li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  border-right: 1px solid #ccc;
+}
+
+.Menu li:last-child a {
+  border-right: none;
+}
+
+
+
+
+
+.SortingOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  padding: 20px;
+  border: none;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.SortingOptions div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.SortingOptions input[type="radio"] {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.SortingOptions label {
+  font-size: 16px;
+  color: #333;
+}
+
+.SortingOptions button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: center;
+}
+
+
+
+.bookPage {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.CoverImg {
+  display: block;
+  max-width:300px;
+  max-height:500px;
+  width: auto;
+  height: auto;
+  border-radius: 5%;
+  border: black 1px solid;
+}
+
+
+@media screen and (max-width: 900px) {
+
+  .CoverImg {
+    display: block;
+    max-width:300px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    border-radius: 5%;
+    border: black 1px solid;
+    align-self: center;
+  }
+
+  .bookPage {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+
+.About {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutLabrary {
+  width: 70%;
+}
+
+
+.form-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-color: #dfd3c3;
+}
+.form-style input[type="email"], .form-style input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.form-style input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+.form-style input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+h1 {
+  font-family: 'Papyrus', sans-serif;
+  color: #DAA520;
+  background-color: #596e79;
+  padding: 20px;
+  border-radius: 8px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.Header a{
+  text-decoration: none;
+}

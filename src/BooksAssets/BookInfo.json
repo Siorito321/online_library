@@ -1,0 +1,128 @@
+{
+    "1": {
+        "name": "Harry Potter: The Prequel",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The Harry Potter prequel is an 800-word story written by J. K. Rowling, and was published online on 11 June 2008. Set about three years before the birth of Harry Potter, the story recounts an adventure experienced by Sirius Black and James Potter.",
+        "series": "Harry Potter"
+    },
+    "2": {
+        "name": "Harry Potter and the Philosopher's Stone",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The first book in the Harry Potter series, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday when he receives a letter of acceptance to the Hogwarts School of Witchcraft and Wizardry.",
+        "series": "Harry Potter"
+    },
+    "3": {
+        "name": "Harry Potter and the Chamber of Secrets",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The second novel in the series follows Harry's second year at Hogwarts School of Witchcraft and Wizardry as the Heir of Slytherin opens the Chamber of Secrets, unleashing a monster that petrifies the school's denizens.",
+        "series": "Harry Potter"
+    },
+    "4": {
+        "name": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "In the third installment, Harry learns Sirius Black, a convicted supporter of the dark wizard Voldemort, has escaped Azkaban prison and intends to kill him.",
+        "series": "Harry Potter"
+    },
+    "5": {
+        "name": "Harry Potter and the Goblet of Fire",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The fourth book chronicles Harry's fourth year at Hogwarts School of Witchcraft and Wizardry as he is chosen by the Goblet of Fire to compete in the Triwizard Tournament.",
+        "series": "Harry Potter"
+    },
+    "6": {
+        "name": "Harry Potter and the Order of the Phoenix",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The fifth novel follows Harry's struggles through his fifth year at Hogwarts School of Witchcraft and Wizardry, including the surreptitious return of the dark wizard Voldemort, and the formation of Dumbledore's Army.",
+        "series": "Harry Potter"
+    },
+    "7": {
+        "name": "Harry Potter and the Half-Blood Prince",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "In the penultimate book, Harry learns more about Lord Voldemort's dark past as well as his quest for immortality. The story culminates in the death of Dumbledore at the hands of Severus Snape.",
+        "series": "Harry Potter"
+    },
+    "8": {
+        "name": "Harry Potter and the Deathly Hallows",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "The final book in the series follows Harry's quest to destroy the remaining Horcruxes, objects that contain Voldemort's soul, and ultimately defeat the dark wizard once and for all.",
+        "series": "Harry Potter"
+    },
+    "9": {
+        "name": "Fantastic Beasts and Where to Find Them",
+        "author": "Newt Scamander (J.K. Rowling)",
+        "available": true,
+        "description": "A Hogwarts textbook written by magizoologist Newt Scamander, detailing the magical creatures of the wizarding world.",
+        "series": "Harry Potter"
+    },
+    "10": {
+        "name": "Quidditch Through the Ages",
+        "author": "Kennilworthy Whisp (J.K. Rowling)",
+        "available": true,
+        "description": "Another Hogwarts textbook, this one about the sport of Quidditch.",
+        "series": "Harry Potter"
+    },
+    "11": {
+        "name": "The Tales of Beedle the Bard",
+        "author": "J.K. Rowling",
+        "available": true,
+        "description": "A collection of wizarding fairy tales mentioned in Harry Potter and the Deathly Hallows, translated from the original runes by Hermione Granger.",
+        "series": "Harry Potter"
+    },
+    "12": {
+        "name": "The Lion, the Witch and the Wardrobe",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "The first book in 'The Chronicles of Narnia' series, it follows four siblings who are evacuated from London during World War II and find a magical wardrobe that leads them to the land of Narnia, which is under the control of the evil White Witch.",
+        "series": "The Chronicles of Narnia"
+    },
+    "13": {
+        "name": "Prince Caspian",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "The second book in the series, it follows the Pevensie siblings as they return to Narnia to aid Prince Caspian in his struggle for the throne against his corrupt uncle King Miraz.",
+        "series": "The Chronicles of Narnia"
+    },
+    "14": {
+        "name": "The Voyage of the Dawn Treader",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "In the third book, Edmund and Lucy Pevensie, along with their cousin Eustace Scrubb, join King Caspian on a voyage to the edge of the world aboard the ship 'Dawn Treader' to find seven lost lords and various magical artifacts.",
+        "series": "The Chronicles of Narnia"
+    },
+    "15": {
+        "name": "The Silver Chair",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "The fourth book follows Eustace Scrubb and his friend Jill Pole as they journey to Narnia to rescue the missing Prince Rilian, son of King Caspian, from the clutches of an evil witch.",
+        "series": "The Chronicles of Narnia"
+    },
+    "16": {
+        "name": "The Horse and His Boy",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "Set during the reign of the Pevensie siblings in Narnia, this book follows a young boy named Shasta and a talking horse named Bree as they journey to Narnia and encounter various adventures along the way.",
+        "series": "The Chronicles of Narnia"
+    },
+    "17": {
+        "name": "The Magician's Nephew",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "The penultimate book in the series serves as a prequel, depicting the creation of Narnia by Aslan, the introduction of the magical wardrobe, and the origins of the White Witch.",
+        "series": "The Chronicles of Narnia"
+    },
+    "18": {
+        "name": "The Last Battle",
+        "author": "C.S. Lewis",
+        "available": true,
+        "description": "The final book in 'The Chronicles of Narnia' series, it follows the culmination of the conflict between the forces of good and evil in Narnia, leading to the end of the world and the ultimate redemption of the land.",
+        "series": "The Chronicles of Narnia"
+    }
+}
